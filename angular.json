@@ -29,6 +29,13 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              "src/favicon.ico",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "src/assets/i18n/",
+                "output": "/assets/i18n/"
               }
             ],
             "styles": [
@@ -93,6 +100,13 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              "src/favicon.ico",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "src/assets/i18n/",
+                "output": "/assets/i18n/"
               }
             ],
             "styles": [
@@ -103,5 +117,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "07e43fec-7b21-40a6-97bc-9a1aca230e2c"
   }
 }
